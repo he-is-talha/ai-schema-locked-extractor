@@ -8,6 +8,8 @@
 
 A CLI that turns messy real-world text (receipts, job postings, meeting notes) into JSON that is guaranteed to match a declared Zod schema, or fails loudly with the reason. Uses Ollama constrained decoding (`format` = JSON Schema), validates again in application code, and retries at most twice by feeding the validation error back to the model.
 
+![Schema-locked extract: messy receipt → JSON, then a business_rule rejection](docs/demo.gif)
+
 ## Quick start
 
 ```bash
@@ -31,7 +33,44 @@ Requires Node 24+ and Ollama on `OLLAMA_HOST` (Docker Compose or a local install
 
 ## Demo
 
-*(asciinema / GIF placeholder — record a 20s extract run here)*
+Messy text in; schema-locked JSON out — or a loud rejection that names the failing layer.
+
+**Input** (`samples/receipt/01.txt`):
+
+```text
+Corner Cafe — Mar 12 2025
+2x latte @ 4.50 each
+1 blueberry muffin 3.25
+tax 1.10
+TOTAL paid 13.35 thanks!!
+```
+
+```bash
+pnpm extract samples/receipt/01.txt --type receipt
+```
+
+**Output** (constrained decode → Zod → business rules all passed):
+
+```json
+{
+  "vendor": "Corner Cafe",
+  "date": "2025-03-12",
+  "line_items": [
+    { "desc": "latte", "qty": 2, "unit_price": 4.5 },
+    { "desc": "blueberry muffin", "qty": 1, "unit_price": 3.25 }
+  ],
+  "tax": 1.1,
+  "total": 13.35
+}
+```
+
+When the printed total does not add up (`samples/receipt/09.txt`), the schema can still pass but **business rules** reject:
+
+```text
+FAIL layer=business_rule field=total attempts=1: total 25 does not equal line sum 18.48 + tax 1.48 (expected 19.96)
+```
+
+> GIF is a ~20s terminal recording of a real `qwen2.5:3b` extract.
 
 ## The problem
 
