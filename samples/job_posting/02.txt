@@ -1,0 +1,7 @@
+JOB: Frontend Developer (Part-time)
+Company: Pixel Forge
+Location: Austin, TX
+Pay: 45 to 55 USD/hr (store as annual-ish numbers? use 45000–55000 if unsure — actually use 45 and 55 as min/max hourly numbers)
+Employment: part time
+Must have: React, CSS, accessibility basics
+Nice: Vite

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+metrics.json
+*.log
+.DS_Store
+coverage/
+out/
+*.json.bak

@@ -1,0 +1,6 @@
+EDGE — action due before meeting date
+
+Team sync 2025-09-10
+attendees: Ava, Bo
+decisions: postpone launch
+action Ava: send customer email due 2025-09-01 (before the meeting — bad data)

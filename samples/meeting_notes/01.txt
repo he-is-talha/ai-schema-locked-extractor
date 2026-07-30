@@ -1,0 +1,6 @@
+Standup notes — Sprint planning
+Date: 2025-03-03
+People there: Ana, Ben, Chris
+We decided to cut scope on notifications.
+Action: Ana will draft the RFC due 2025-03-10
+Action: Ben ship the hotfix (no due date)

@@ -1,0 +1,44 @@
+{
+  "name": "ai-schema-locked-extractor",
+  "version": "1.0.0",
+  "description": "Boring AI Project 1 — schema-locked extraction with Ollama constrained decoding, Zod validation, and a capped repair loop",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "bin": {
+    "extract": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "extract": "tsx src/cli.ts",
+    "samples": "tsx scripts/run-samples.ts",
+    "demo": "tsx scripts/run-samples.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "ollama",
+    "zod",
+    "structured-output",
+    "boring-ai"
+  ],
+  "license": "MIT",
+  "packageManager": "pnpm@10.34.5",
+  "dependencies": {
+    "commander": "^15.0.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

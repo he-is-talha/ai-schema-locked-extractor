@@ -1,0 +1,7 @@
+Part-time Support Specialist at HelpDesk Co, remote.
+part_time
+salary 28000 to 32000
+requirements: empathy, ticketing tools, written English
+title Customer Support Specialist
+company HelpDesk Co
+location Remote

@@ -1,0 +1,6 @@
+Vendor kickoff call
+Date 2025-01-15
+Attendees: Alex (us), Nora (vendor), Tim (legal)
+Decision: use MSA v3; start pilot in Feb
+Action Tim: redline MSA by 2025-01-22
+Action Nora: send sandbox creds by 2025-01-17

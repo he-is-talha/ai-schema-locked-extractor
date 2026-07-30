@@ -1,0 +1,6 @@
+gas stop Shell #4421
+05/18/2025
+unleaded 12.4 gal @ 3.459 = 42.89
+car wash 1 @ 8.00
+tax 0.00
+total 50.89

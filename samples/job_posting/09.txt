@@ -1,0 +1,6 @@
+EDGE — inverted salary band (min > max) if model copies numbers literally
+
+Staff Engineer @ WeirdCorp, Seattle
+full_time
+"salary from 200000 down to 180000" (typo in post)
+requirements: Go, distributed systems

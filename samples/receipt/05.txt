@@ -1,0 +1,8 @@
+From: bookstore@campus.edu
+Subject: your purchase
+
+Hi — you bought at Campus Bookstore on 2025-02-14:
+1x Algorithms textbook $89.00
+1x highlighter pack $4.50 qty 1
+tax $7.48
+order total $100.98

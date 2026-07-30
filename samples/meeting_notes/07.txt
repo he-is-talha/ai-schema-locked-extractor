@@ -1,0 +1,5 @@
+Roadmap workshop — July 7 2025
+Folks: Mia, Noah, Ivy, Gus
+Decisions: Q3 themes are reliability + onboarding
+Mia: publish roadmap doc due 2025-07-14
+Noah: estimate onboarding epic due 2025-07-11

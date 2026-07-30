@@ -1,0 +1,8 @@
+Office Depot invoice-ish note (pasted from email)
+
+Vendor: Office Depot
+Purchased on April 2, 2025
+- printer paper, qty 3, unit 6.99
+- black ink cartridge, qty 1, unit 29.99
+Sales tax 4.05
+Amount charged: 55.01

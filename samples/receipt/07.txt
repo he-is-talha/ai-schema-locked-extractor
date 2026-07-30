@@ -1,0 +1,7 @@
+Pharmacy Rx counter
+Vendor: HealthPlus Pharmacy
+Date 2025-03-30
+ibuprofen 200mg, 1 bottle, $8.49
+vitamin D, 1, $12.00
+tax $1.64
+TOTAL $22.13

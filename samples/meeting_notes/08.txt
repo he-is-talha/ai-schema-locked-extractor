@@ -1,0 +1,7 @@
+Security review notes
+meeting title Security Review #12
+date: 2025-08-01
+attendees: SecSara, EngEd, CompChris
+decisions: rotate keys quarterly; block legacy TLS
+action EngEd rotate staging keys due 2025-08-08
+action SecSara update policy doc (due null / TBD)

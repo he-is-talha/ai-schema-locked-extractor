@@ -1,0 +1,6 @@
+IKEA pickup slip 2025-06-01
+BILLY bookcase 1 × 59.00
+KALLAX shelf 2 × 45.00
+tax 11.92
+paid total 160.92
+vendor Ikea

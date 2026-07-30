@@ -1,0 +1,7 @@
+Incident retro (messy notes)
+title: API latency incident retro
+when: 2025-05-20
+who showed up: DevOps Dana, Oncall Omar, PM Pat
+decision: add p95 alert; runbook update
+Omar: rewrite runbook page by 2025-05-27
+Dana: tune alert threshold — due 2025-05-22

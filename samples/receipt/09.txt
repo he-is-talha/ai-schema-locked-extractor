@@ -1,0 +1,8 @@
+EDGE CASE — totals may not add cleanly (human typo on total)
+
+Joe's Hardware
+2025-04-20
+hammer 1 @ 12.99
+nails box 1 @ 5.49
+tax 1.48
+TOTAL printed as 25.00 (should be ~19.96)

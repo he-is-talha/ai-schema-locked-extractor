@@ -1,0 +1,6 @@
+Design critique 2025-06-18
+Present: Rita, Quinn, Elle
+Agreed: new empty state, drop carousel
+Rita owns empty-state mock due 2025-06-25
+Elle owns copy pass due 2025-06-20
+Quinn: no task

@@ -1,0 +1,6 @@
+Weekly product sync 2025-04-11
+Attendees: Priya, Sam, Lee
+Decisions: ship beta Friday; delay billing UI
+Action items:
+- Priya: finalize changelog, due 2025-04-14
+- Sam: prep demo script, due 2025-04-12

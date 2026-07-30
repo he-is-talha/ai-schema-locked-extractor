@@ -1,0 +1,7 @@
+Coffee bean wholesale note
+Vendor: Roast Co
+date: 2025-08-15
+5 lb bags arabica qty 4 unit_price 18.00
+filters qty 2 unit 3.50
+tax 6.00
+total 85.00
