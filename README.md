@@ -147,4 +147,4 @@ Failures print which layer failed (`decode` | `schema` | `business_rule`) and th
 **Boring AI — Project 1/15**
 
 - Previous: — (first)
-- Next: [`ai-triage-router`](https://github.com/) (Project 2)
+- Next: [`ai-inbox-router`](https://github.com/he-is-talha/ai-inbox-router) (Project 2)
